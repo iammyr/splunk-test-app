@@ -1,0 +1,6 @@
+= splunk-test-app
+
+* Download and install splunk
+* Start it and login
+* Download app: 
+* Menu:  Apps -> Manage Apps
