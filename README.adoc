@@ -4,3 +4,7 @@
 * Start it and login
 * Download app: https://github.com/prateepb/splunk-test-app/archive/master.tar.gz
 * Menu:  Apps -> Manage Apps
+* Install app from file
+* Select downloaded .tar.gz file
+
+Don't forget to add a data input.  Use source type "jaf"
