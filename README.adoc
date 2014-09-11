@@ -2,5 +2,5 @@
 
 * Download and install splunk
 * Start it and login
-* Download app: 
+* Download app: https://github.com/prateepb/splunk-test-app/archive/master.tar.gz
 * Menu:  Apps -> Manage Apps
