@@ -14,7 +14,7 @@
     <panel>
       <table>
         <title>Top Directories ($file_subcategory$)</title>
-        <searchString>sourcetype=jaf rule_category=File rule_subcategory=$file_subcategory$ | rex field=rule_data "(?&lt;dirname&gt;/.*/)(?&lt;basename&gt;.*)" | top limit=20 dirname</searchString>
+        <searchString>sourcetype=waratek_security rule_category=File rule_subcategory=$file_subcategory$ | rex field=rule_data "(?&lt;dirname&gt;/.*/)(?&lt;basename&gt;.*)" | top limit=20 dirname</searchString>
         <earliestTime>0</earliestTime>
         <latestTime/>
         <option name="wrap">true</option>
@@ -29,7 +29,7 @@
     <panel>
       <table>
         <title>Top Paths ($file_subcategory$)</title>
-        <searchString>sourcetype=jaf rule_category=File rule_subcategory=$file_subcategory$ | rename rule_data as file_path | top limit=20 file_path</searchString>
+        <searchString>sourcetype=waratek_security rule_category=File rule_subcategory=$file_subcategory$ | rename rule_data as file_path | top limit=20 file_path</searchString>
         <earliestTime>0</earliestTime>
         <latestTime/>
         <option name="wrap">true</option>
@@ -44,7 +44,7 @@
     <panel>
       <table>
         <title>Top Files ($file_subcategory$)</title>
-        <searchString>sourcetype=jaf rule_category=File rule_subcategory=$file_subcategory$ | rex field=rule_data "(?&lt;dirname&gt;/.*/)(?&lt;basename&gt;.*)" | top limit=20 basename</searchString>
+        <searchString>sourcetype=waratek_security rule_category=File rule_subcategory=$file_subcategory$ | rex field=rule_data "(?&lt;dirname&gt;/.*/)(?&lt;basename&gt;.*)" | top limit=20 basename</searchString>
         <earliestTime>0</earliestTime>
         <latestTime/>
         <option name="wrap">true</option>
