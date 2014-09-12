@@ -9,4 +9,4 @@
 
 Alternately, clone this repo directly into $SPLUNK_HOME/etc/apps and restart splunk
 
-Don't forget to add a data input.  Use source type "jaf"
+Don't forget to add a data input.  Use source type "waratek_security"
