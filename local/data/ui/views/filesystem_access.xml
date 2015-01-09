@@ -1,6 +1,6 @@
 <form>
   <label>Filesystem Access</label>
-  <description>Foo Bar Baz</description>
+  <description>Breakdown of all filesystem access</description>
   <fieldset submitButton="false" autoRun="true">
     <input type="dropdown" token="file_subcategory" searchWhenChanged="true">
       <label>Select sub category</label>
